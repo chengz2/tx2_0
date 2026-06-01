@@ -1,0 +1,21 @@
+format: jb-book
+root: README
+parts:
+  - caption: Model Setup
+    chapters:
+    - file: supergrid/FRE.md
+    - file: topography/topo.md
+    - file: mesh/mesh.md
+    - file: mesh/create_mesh.ipynb
+    - file: runoff_mapping/runoff.md
+    - file: state_restoring/state_restoring.ipynb
+    - file: tidal_dissipation/regrid_tidal_dissipation.ipynb
+    - file: chlorophyll/Interpolate_and_fill_SeaWIFS.ipynb
+    - file: sea_ice/create_seaice.ipynb
+    - file: geothermal/davies2013_to_tx2_0.ipynb
+    - file: background_viscosity/background_kh_tx2_0.ipynb
+  - caption: Model Validation
+    chapters:
+    - file:  basin_masks/basin_masks.ipynb
+    - file:  basin_masks/imbie_basins.ipynb
+    - file:  woa18/woa18_to_tx2_0.ipynb
